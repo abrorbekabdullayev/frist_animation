@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Metal+Mania&family=Redressed&display=swap');
+body {
+  background-image: url(./octagon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contanier {
+  width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Redressed', cursive;
+
+}
+
+@keyframes frombutton {
+  0% { 
+    bottom: -500px;
+    opacity: 0;
+  }
+  50% {
+    bottom:-600px;
+    opacity: 0;
+  }
+  100%{
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+
+.card1 {
+  position: relative;
+  width: 320px;
+  background-color: #fff;
+  box-shadow: 4px 6px 25px rgba(19, 14, 14, 0.295);
+  border-radius: 7px;
+  animation-name:  frombutton;
+  animation-duration: 3s;
+  /* animation-delay: .2s; */
+  display: inline-block;
+  
+}
+.card2 {
+  position: relative;
+  width: 320px;
+  background-color: #fff;
+  box-shadow: 4px 6px 25px rgba(19, 14, 14, 0.295);
+  border-radius: 5px;
+  animation-name:  frombutton;
+  animation-duration: 4s;
+  /* animation-delay: .3s; */
+  display: inline-block;
+  
+  
+}
+.card3 {
+  position: relative;
+  width: 320px;
+  background-color: #fff;
+  box-shadow: 4px 6px 25px rgba(19, 14, 14, 0.295);
+  border-radius: 5px;
+  animation-name:  frombutton;
+  animation-duration: 5s;
+  /* animation-delay: .4s; */
+  display: inline-block;
+  
+}
+
+.card_head {
+
+}
+
+.card_head .card_image {
+  width: 100%;
+
+}
+
+.card_title {
+text-shadow: 6px 6px 10px gray;
+text-align: center;
+}
+
+.card_text {
+font-size: 30px;
+text-align: center;
+
+}
+.
